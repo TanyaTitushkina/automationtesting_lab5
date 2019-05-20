@@ -1,0 +1,24 @@
+2019-05-20 00:56:31,521 INFO AddNewBasicPage [main] AddNewBasicPage test started
+2019-05-20 00:56:47,841 INFO AddNewBasicPage [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-20 00:56:49,214 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-20 00:56:49,323 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-20 00:56:49,417 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-20 00:56:49,417 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-20 00:56:49,479 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-20 00:56:49,542 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-20 00:56:49,620 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-20 00:56:49,620 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-20 00:56:49,698 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-20 00:56:51,765 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-20 00:56:52,331 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-20 00:56:53,747 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-20 00:56:53,896 INFO WebButton [main] Click on element 'Add Content Btn'
+2019-05-20 00:56:55,050 INFO Menu [main] Check that page title is 'Add content' in '10' seconds
+2019-05-20 00:56:55,127 INFO WebLink [main] Click on element 'Basic Page Lnk'
+2019-05-20 00:57:00,859 INFO Menu [main] Check that page title is 'Create Basic page' in '10' seconds
+2019-05-20 00:57:00,900 INFO WebTextInput [main] Populate 'Title Input' with value 'Hobbits'
+2019-05-20 00:57:00,947 INFO WebTextInput [main] Verify text of 'Title Input' element
+2019-05-20 00:57:00,985 INFO WebTextInput [main] 1st: 'Hobbits'
+2019-05-20 00:57:00,986 INFO WebTextInput [main] 2nd: 'Hobbits'
+2019-05-20 00:57:01,018 INFO WebLink [main] Click on element 'Source Format Lnk'
+2019-05-20 00:57:01,627 INFO AddNewBasicPage [main] Screenshot name is logs/AddNewBasicPage_2019-MAY-20_0-56-29/AddNewBasicPage_2019-MAY-20_0-57-1.png

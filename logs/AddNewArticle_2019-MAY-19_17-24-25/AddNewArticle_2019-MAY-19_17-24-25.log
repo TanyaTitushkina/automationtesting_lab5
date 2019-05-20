@@ -1,0 +1,52 @@
+2019-05-19 17:24:29,154 INFO AddNewArticle [main] AddNewArticle test started
+2019-05-19 17:25:09,140 INFO AddNewArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 17:25:15,397 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 17:25:16,021 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 17:25:16,598 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 17:25:16,598 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 17:25:16,676 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 17:25:16,739 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 17:25:16,973 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 17:25:16,973 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 17:25:17,113 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 17:25:20,557 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 17:25:20,888 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 17:25:22,462 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 17:25:22,596 INFO WebButton [main] Click on element 'Add Content Btn'
+2019-05-19 17:25:23,687 INFO Menu [main] Check that page title is 'Add content' in '10' seconds
+2019-05-19 17:25:23,967 INFO WebLink [main] Click on element 'Article Lnk'
+2019-05-19 17:25:25,728 INFO Menu [main] Check that page title is 'Create Article' in '10' seconds
+2019-05-19 17:25:25,805 INFO WebTextInput [main] Populate 'Title Input' with value 'test article S9mH'
+2019-05-19 17:25:25,853 INFO WebTextInput [main] Verify text of 'Title Input' element
+2019-05-19 17:25:25,886 INFO WebTextInput [main] 1st: 'test article S9mH'
+2019-05-19 17:25:25,887 INFO WebTextInput [main] 2nd: 'test article S9mH'
+2019-05-19 17:25:26,336 INFO WebTextInput [main] Populate 'Tag Input' with value 'test'
+2019-05-19 17:25:26,414 INFO WebTextInput [main] Verify text of 'Tag Input' element
+2019-05-19 17:25:26,484 INFO WebTextInput [main] 1st: 'test'
+2019-05-19 17:25:26,484 INFO WebTextInput [main] 2nd: 'test'
+2019-05-19 17:25:26,789 INFO WebFileInput [main] Upload file 'D:/IdeaProjects/automationtesting/resources/1468678199118775206.jpg' in Image Input
+2019-05-19 17:25:27,953 INFO WebTextInput [main] Populate 'Alt Text' with value 'shire'
+2019-05-19 17:25:27,990 INFO WebTextInput [main] Verify text of 'Alt Text' element
+2019-05-19 17:25:28,027 INFO WebTextInput [main] 1st: 'shire'
+2019-05-19 17:25:28,027 INFO WebTextInput [main] 2nd: 'shire'
+2019-05-19 17:25:28,056 INFO WebButton [main] Click on element 'Save Btn'
+2019-05-19 17:25:30,561 INFO Menu [main] Check that page title is 'test article S9mH' in '10' seconds
+2019-05-19 17:25:30,866 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Article test article S9mH has been created.'
+2nd: 'Article test article S9mH has been created.'
+2019-05-19 17:25:30,866 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-19 17:25:30,886 INFO WebText [main] 1st: 'content to check'
+2019-05-19 17:25:30,886 INFO WebText [main] 2nd: 'content to check'
+2019-05-19 17:25:30,901 INFO WebText [main] Verify text of 'Tag Txt' element
+2019-05-19 17:25:30,916 INFO WebText [main] 1st: 'test'
+2019-05-19 17:25:30,916 INFO WebText [main] 2nd: 'test'
+2019-05-19 17:25:30,937 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 17:25:32,238 INFO Content [main] Check Type for 'test article S9mH'
+2019-05-19 17:25:32,263 INFO Helpers [main] Check 2 string if equals:
+1st: 'Article'
+2nd: 'Article'
+2019-05-19 17:25:32,263 INFO Content [main] Check Status for 'test article S9mH'
+2019-05-19 17:25:32,284 INFO Helpers [main] Check 2 string if equals:
+1st: 'Published'
+2nd: 'Published'

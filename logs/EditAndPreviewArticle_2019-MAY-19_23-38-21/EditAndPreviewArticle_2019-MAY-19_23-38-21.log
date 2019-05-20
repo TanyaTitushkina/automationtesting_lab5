@@ -1,0 +1,37 @@
+2019-05-19 23:38:22,840 INFO EditAndPreviewArticle [main] EditAndPreviewArticle test started
+2019-05-19 23:38:29,749 INFO EditAndPreviewArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 23:38:31,137 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 23:38:31,215 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 23:38:31,293 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 23:38:31,293 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 23:38:31,371 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 23:38:31,433 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 23:38:31,511 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 23:38:31,511 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 23:38:31,636 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 23:38:33,896 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 23:38:34,002 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 23:38:35,543 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 23:38:35,565 INFO Content [main] Edit content of 'Article1'
+2019-05-19 23:38:37,337 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 23:38:37,842 INFO WebTextInput [main] Populate 'Tag Input' with value 'edited'
+2019-05-19 23:38:37,892 INFO WebTextInput [main] Verify text of 'Tag Input' element
+2019-05-19 23:38:37,942 INFO WebTextInput [main] 1st: 'edited'
+2019-05-19 23:38:37,943 INFO WebTextInput [main] 2nd: 'edited'
+2019-05-19 23:38:38,018 INFO EditAndPreviewArticle [main] ===Preview edited content===
+2019-05-19 23:38:38,018 INFO WebButton [main] Click on element 'Preview Btn'
+2019-05-19 23:38:39,780 INFO Menu [main] Check that page title is 'Article1' in '10' seconds
+2019-05-19 23:38:39,807 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-19 23:38:39,828 INFO WebText [main] 1st: 'content was edited'
+2019-05-19 23:38:39,828 INFO WebText [main] 2nd: 'content was edited'
+2019-05-19 23:38:39,843 INFO WebLink [main] Click on element 'Back To Edit Lnk'
+2019-05-19 23:38:41,690 INFO EditAndPreviewArticle [main] ===Check after Preview content has the same values===
+2019-05-19 23:38:41,690 INFO WebTextInput [main] Verify text of 'Title Input' element
+2019-05-19 23:38:41,793 INFO WebTextInput [main] 1st: 'Article1'
+2019-05-19 23:38:41,793 INFO WebTextInput [main] 2nd: 'Article1'
+2019-05-19 23:38:41,840 INFO Helpers [main] Sleep for 500 ms
+2019-05-19 23:38:42,388 INFO Helpers [main] Check 2 string if equals:
+1st: 'content was edited'
+2nd: 'content was edited'
+2019-05-19 23:38:42,393 INFO EditAndPreviewArticle [main] ===Save new content===
+2019-05-19 23:38:42,393 INFO WebButton [main] Click on element 'Save Btn'

@@ -1,0 +1,24 @@
+2019-05-19 21:06:31,291 INFO DeleteArticle [main] DeleteArticle test started
+2019-05-19 21:06:38,358 INFO DeleteArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 21:06:40,073 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 21:06:40,136 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 21:06:40,186 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 21:06:40,186 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 21:06:40,225 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 21:06:40,262 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 21:06:40,295 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 21:06:40,295 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 21:06:40,361 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 21:06:42,368 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 21:06:42,510 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 21:06:43,892 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 21:06:43,924 INFO Content [main] Select the item with title 'Article1'
+2019-05-19 21:06:44,188 INFO WebSelect [main] Select 'Delete content' for Select Action
+2019-05-19 21:06:44,425 INFO WebButton [main] Click on element 'Apply Btn'
+2019-05-19 21:06:45,867 INFO Menu [main] Check that page title is 'Are you sure you want to delete this content item?' in '2' seconds
+2019-05-19 21:06:45,906 INFO WebButton [main] Click on element 'Delete Btn'
+2019-05-19 21:06:47,578 INFO Content [main] Check if the info message equals to 'Deleted 1 content item.'
+2019-05-19 21:06:47,620 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Deleted 1 content item.'
+2nd: 'Deleted 1 content item.'

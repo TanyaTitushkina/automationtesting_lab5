@@ -1,0 +1,26 @@
+2019-05-19 20:34:00,312 INFO EditArticle [main] EditArticle test started
+2019-05-19 20:34:11,945 INFO EditArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 20:34:13,207 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 20:34:13,271 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 20:34:13,317 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 20:34:13,317 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 20:34:13,361 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 20:34:13,436 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 20:34:13,470 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 20:34:13,471 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 20:34:13,683 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 20:34:15,571 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 20:34:15,719 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 20:34:17,043 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 20:34:17,068 INFO Content [main] Edit content of 'Article1'
+2019-05-19 20:34:19,230 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 20:34:19,817 INFO WebButton [main] Click on element 'Save Btn'
+2019-05-19 20:34:22,100 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 20:34:22,366 INFO Content [main] Check status for 'Article1'
+2019-05-19 20:34:22,395 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Article Article1 has been updated.'
+2nd: 'Article Article1 has been updated'
+2019-05-19 20:34:22,395 INFO Content [main] Check Type for 'Article1'
+2019-05-19 20:34:22,645 INFO Menu [main] Check that page title is 'Article1' in '10' seconds
+2019-05-19 20:34:33,100 INFO EditArticle [main] Screenshot name is logs/EditArticle_2019-MAY-19_20-33-58/EditArticle_2019-MAY-19_20-34-33.png

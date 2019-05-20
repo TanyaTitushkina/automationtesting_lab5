@@ -1,0 +1,38 @@
+2019-05-19 22:48:42,815 INFO EditArticle [main] EditArticle test started
+2019-05-19 22:48:50,370 INFO EditArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 22:48:51,836 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 22:48:51,914 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 22:48:51,992 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 22:48:51,992 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 22:48:52,070 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 22:48:52,133 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 22:48:52,242 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 22:48:52,242 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 22:48:52,304 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 22:48:54,324 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 22:48:54,422 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 22:48:55,767 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 22:48:55,793 INFO EditArticle [main] ===Edit Article's text content===
+2019-05-19 22:48:55,794 INFO Content [main] Edit content of 'Article1'
+2019-05-19 22:48:57,708 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 22:48:58,181 INFO WebTextInput [main] Populate 'Tag Input' with value 'edited'
+2019-05-19 22:48:58,224 INFO WebTextInput [main] Verify text of 'Tag Input' element
+2019-05-19 22:48:58,275 INFO WebTextInput [main] 1st: 'edited'
+2019-05-19 22:48:58,275 INFO WebTextInput [main] 2nd: 'edited'
+2019-05-19 22:48:58,355 INFO WebButton [main] Click on element 'Remove Image Btn'
+2019-05-19 22:48:59,504 INFO WebButton [main] Click on element 'Save Btn'
+2019-05-19 22:49:01,098 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 22:49:01,127 INFO Content [main] Check if the info message equals to 'Article Article1 has been updated'
+2019-05-19 22:49:01,154 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Article Article1 has been updated.'
+2nd: 'Article Article1 has been updated'
+2019-05-19 22:49:01,154 INFO EditArticle [main] Check Article is published with edited content
+2019-05-19 22:49:01,154 INFO Content [main] Go to the item with title 'Article1'
+2019-05-19 22:49:02,786 INFO Menu [main] Check that page title is 'Article1' in '10' seconds
+2019-05-19 22:49:02,848 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-19 22:49:02,868 INFO WebText [main] 1st: 'content was edited'
+2019-05-19 22:49:02,868 INFO WebText [main] 2nd: 'content was edited'
+2019-05-19 22:49:02,884 INFO WebText [main] Verify text of 'Tag Txt' element
+2019-05-19 22:49:02,899 INFO WebText [main] 1st: 'edited'
+2019-05-19 22:49:02,899 INFO WebText [main] 2nd: 'edited'

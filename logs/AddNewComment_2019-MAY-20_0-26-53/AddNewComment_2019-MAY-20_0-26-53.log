@@ -1,0 +1,29 @@
+2019-05-20 00:26:54,837 INFO AddNewComment [main] AddNewComment test started
+2019-05-20 00:27:02,516 INFO AddNewComment [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-20 00:27:04,326 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-20 00:27:04,419 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-20 00:27:04,513 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-20 00:27:04,513 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-20 00:27:04,591 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-20 00:27:04,669 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-20 00:27:04,762 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-20 00:27:04,762 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-20 00:27:04,840 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-20 00:27:11,886 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-20 00:27:12,095 INFO WebLink [main] Click on element 'Home Lnk'
+2019-05-20 00:27:16,741 INFO WebTextInput [main] Populate 'Subject Input' with value 'Comment Subject'
+2019-05-20 00:27:17,542 INFO WebTextInput [main] Verify text of 'Subject Input' element
+2019-05-20 00:27:17,633 INFO WebTextInput [main] 1st: 'Comment Subject'
+2019-05-20 00:27:17,633 INFO WebTextInput [main] 2nd: 'Comment Subject'
+2019-05-20 00:27:17,669 INFO Helpers [main] Sleep for 1000 ms
+2019-05-20 00:27:19,114 INFO WebButton [main] Click on element 'Save Btn'
+2019-05-20 00:27:22,711 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Your comment has been posted.'
+2nd: 'Your comment has been posted.'
+2019-05-20 00:27:22,735 INFO Helpers [main] Check 2 string if equals:
+1st: 'Comment Subject'
+2nd: 'Comment Subject'
+2019-05-20 00:27:22,752 INFO Helpers [main] Check 2 string if equals:
+1st: 'I like to post comments'
+2nd: 'I like to post comments'

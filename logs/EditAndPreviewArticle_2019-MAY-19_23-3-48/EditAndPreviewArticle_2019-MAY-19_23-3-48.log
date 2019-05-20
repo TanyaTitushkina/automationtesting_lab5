@@ -1,0 +1,29 @@
+2019-05-19 23:03:50,283 INFO EditAndPreviewArticle [main] EditAndPreviewArticle test started
+2019-05-19 23:04:18,602 INFO EditAndPreviewArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 23:04:21,301 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 23:04:21,707 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 23:04:22,144 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 23:04:22,144 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 23:04:22,222 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 23:04:22,315 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 23:04:22,424 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 23:04:22,424 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 23:04:22,502 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 23:04:24,802 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 23:04:24,967 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 23:04:26,302 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 23:04:26,454 INFO EditAndPreviewArticle [main] ===Edit Article's content===
+2019-05-19 23:04:26,454 INFO Content [main] Edit content of 'Article1'
+2019-05-19 23:04:28,367 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 23:04:29,465 INFO WebTextInput [main] Populate 'Tag Input' with value 'edited'
+2019-05-19 23:04:29,528 INFO WebTextInput [main] Verify text of 'Tag Input' element
+2019-05-19 23:04:29,618 INFO WebTextInput [main] 1st: 'edited'
+2019-05-19 23:04:29,618 INFO WebTextInput [main] 2nd: 'edited'
+2019-05-19 23:04:29,672 INFO WebButton [main] Click on element 'Preview Btn'
+2019-05-19 23:04:31,470 INFO Menu [main] Check that page title is 'Article1' in '10' seconds
+2019-05-19 23:04:31,499 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-19 23:04:31,518 INFO WebText [main] 1st: 'content was edited'
+2019-05-19 23:04:31,518 INFO WebText [main] 2nd: 'content was edited'
+2019-05-19 23:04:31,563 INFO WebLink [main] Click on element 'Back To Edit Lnk'
+2019-05-19 23:04:32,282 INFO WebTextInput [main] Verify text of 'Title Input' element
+2019-05-19 23:04:48,050 INFO EditAndPreviewArticle [main] Screenshot name is logs/EditAndPreviewArticle_2019-MAY-19_23-3-48/EditAndPreviewArticle_2019-MAY-19_23-4-48.png

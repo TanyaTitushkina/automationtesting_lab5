@@ -1,0 +1,28 @@
+2019-05-19 21:01:06,229 INFO EditArticle [main] EditArticle test started
+2019-05-19 21:01:21,348 INFO EditArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 21:01:22,634 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 21:01:22,716 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 21:01:22,762 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 21:01:22,762 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 21:01:22,805 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 21:01:22,845 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 21:01:22,893 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 21:01:22,894 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 21:01:22,957 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 21:01:25,373 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 21:01:26,027 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 21:01:29,373 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 21:01:29,408 INFO Content [main] Edit content of 'Article1'
+2019-05-19 21:01:38,684 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 21:01:40,730 INFO WebButton [main] Click on element 'Save Btn'
+2019-05-19 21:01:42,804 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 21:01:42,827 INFO Content [main] Check if the info message equals to 'Article Article1 has been updated'
+2019-05-19 21:01:42,879 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Article Article1 has been updated.'
+2nd: 'Article Article1 has been updated'
+2019-05-19 21:01:42,880 INFO Content [main] Go to the item with title 'Article1'
+2019-05-19 21:01:44,831 INFO Menu [main] Check that page title is 'Article1' in '10' seconds
+2019-05-19 21:01:44,964 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-19 21:01:44,979 INFO WebText [main] 1st: 'content was edited'
+2019-05-19 21:01:44,979 INFO WebText [main] 2nd: 'content was edited'

@@ -1,0 +1,26 @@
+2019-05-20 01:24:42,355 INFO EditAndPreviewBasicPage [main] EditAndPreviewBasicPage test started
+2019-05-20 01:25:01,780 INFO EditAndPreviewBasicPage [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-20 01:25:02,966 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-20 01:25:03,044 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-20 01:25:03,122 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-20 01:25:03,122 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-20 01:25:03,184 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-20 01:25:03,262 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-20 01:25:03,324 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-20 01:25:03,324 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-20 01:25:03,387 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-20 01:25:05,465 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-20 01:25:05,709 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-20 01:25:08,481 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-20 01:25:08,793 INFO Content [main] Edit content of 'Hobbits'
+2019-05-20 01:25:10,671 INFO Menu [main] Check that page title is 'Edit Basic page Hobbits' in '20' seconds
+2019-05-20 01:25:11,849 INFO EditAndPreviewBasicPage [main] ===Preview edited content===
+2019-05-20 01:25:11,849 INFO WebButton [main] Click on element 'Preview Btn'
+2019-05-20 01:25:13,906 INFO Menu [main] Check that page title is 'Hobbits' in '10' seconds
+2019-05-20 01:25:13,952 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-20 01:25:13,969 INFO WebText [main] 1st: 'At the beginning of the story was Bilbo Baggins.'
+2019-05-20 01:25:13,969 INFO WebText [main] 2nd: 'At the beginning of the story was Bilbo Baggins.'
+2019-05-20 01:25:13,989 INFO WebLink [main] Click on element 'Back To Edit Lnk'
+2019-05-20 01:25:14,713 INFO EditAndPreviewBasicPage [main] ===Check after Preview content has the same values===
+2019-05-20 01:25:14,714 INFO WebTextInput [main] Verify text of 'Title Input' element
+2019-05-20 01:25:30,381 INFO EditAndPreviewBasicPage [main] Screenshot name is logs/EditAndPreviewBasicPage_2019-MAY-20_1-24-40/EditAndPreviewBasicPage_2019-MAY-20_1-25-30.png

@@ -1,0 +1,17 @@
+2019-05-19 20:22:54,360 INFO EditArticle [main] EditArticle test started
+2019-05-19 20:23:10,375 INFO EditArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 20:23:11,912 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 20:23:11,977 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 20:23:12,022 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 20:23:12,023 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 20:23:12,062 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 20:23:12,098 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 20:23:12,130 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 20:23:12,131 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 20:23:12,193 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 20:23:13,833 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 20:23:13,943 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 20:23:15,232 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 20:23:16,976 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 20:23:17,692 INFO WebButton [main] Click on element 'Remove Image Btn'
+2019-05-19 20:23:36,664 INFO EditArticle [main] Screenshot name is logs/EditArticle_2019-MAY-19_20-22-52/EditArticle_2019-MAY-19_20-23-36.png

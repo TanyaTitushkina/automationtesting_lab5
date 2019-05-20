@@ -1,0 +1,42 @@
+2019-05-19 23:29:37,380 INFO EditArticle [main] EditArticle test started
+2019-05-19 23:29:45,465 INFO EditArticle [main] Navigate to http://dev-shire-test.pantheonsite.io/user/login
+2019-05-19 23:29:46,588 INFO WebTextInput [main] Populate 'Username Input' with value 'sf_tanya'
+2019-05-19 23:29:46,682 INFO WebTextInput [main] Verify text of 'Username Input' element
+2019-05-19 23:29:46,760 INFO WebTextInput [main] 1st: 'sf_tanya'
+2019-05-19 23:29:46,760 INFO WebTextInput [main] 2nd: 'sf_tanya'
+2019-05-19 23:29:46,822 INFO WebTextInput [main] Populate 'Password Input' with value '1991SpaceFlash'
+2019-05-19 23:29:46,900 INFO WebTextInput [main] Verify text of 'Password Input' element
+2019-05-19 23:29:46,978 INFO WebTextInput [main] 1st: '1991SpaceFlash'
+2019-05-19 23:29:46,978 INFO WebTextInput [main] 2nd: '1991SpaceFlash'
+2019-05-19 23:29:47,040 INFO WebButton [main] Click on element 'Login Btn'
+2019-05-19 23:29:48,771 INFO Menu [main] Check that page title is 'sf_tanya' in '10' seconds
+2019-05-19 23:29:48,902 INFO WebLink [main] Click on element 'Content Lnk'
+2019-05-19 23:29:50,373 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 23:29:50,412 INFO Content [main] Edit content of 'Article1'
+2019-05-19 23:29:52,093 INFO Menu [main] Check that page title is 'Edit Article Article1' in '20' seconds
+2019-05-19 23:29:52,646 INFO WebTextInput [main] Populate 'Tag Input' with value 'edited'
+2019-05-19 23:29:52,689 INFO WebTextInput [main] Verify text of 'Tag Input' element
+2019-05-19 23:29:52,728 INFO WebTextInput [main] 1st: 'edited'
+2019-05-19 23:29:52,728 INFO WebTextInput [main] 2nd: 'edited'
+2019-05-19 23:30:08,149 INFO EditArticle [main] This Article hasn't a picture
+2019-05-19 23:30:08,196 INFO WebFileInput [main] Upload file 'D:/IdeaProjects/automationtesting/resources/1468678199118775206.jpg' in Image Input
+2019-05-19 23:30:09,257 INFO WebTextInput [main] Populate 'Alt Text' with value 'shire'
+2019-05-19 23:30:09,335 INFO WebTextInput [main] Verify text of 'Alt Text' element
+2019-05-19 23:30:09,413 INFO WebTextInput [main] 1st: 'shire'
+2019-05-19 23:30:09,413 INFO WebTextInput [main] 2nd: 'shire'
+2019-05-19 23:30:09,475 INFO WebButton [main] Click on element 'Save Btn'
+2019-05-19 23:30:11,154 INFO Menu [main] Check that page title is 'Content' in '10' seconds
+2019-05-19 23:30:11,209 INFO Content [main] Check if the info message equals to 'Article Article1 has been updated'
+2019-05-19 23:30:11,239 INFO Helpers [main] Check 2 string if equals:
+1st: 'Status message
+Article Article1 has been updated.'
+2nd: 'Article Article1 has been updated'
+2019-05-19 23:30:11,239 INFO EditArticle [main] Check Article is published with edited content
+2019-05-19 23:30:11,239 INFO Content [main] Go to the item with title 'Article1'
+2019-05-19 23:30:13,077 INFO Menu [main] Check that page title is 'Article1' in '10' seconds
+2019-05-19 23:30:13,178 INFO WebText [main] Verify text of 'Content Txt' element
+2019-05-19 23:30:13,191 INFO WebText [main] 1st: 'content was edited'
+2019-05-19 23:30:13,192 INFO WebText [main] 2nd: 'content was edited'
+2019-05-19 23:30:13,206 INFO WebText [main] Verify text of 'Tag Txt' element
+2019-05-19 23:30:13,220 INFO WebText [main] 1st: 'edited'
+2019-05-19 23:30:13,220 INFO WebText [main] 2nd: 'edited'
